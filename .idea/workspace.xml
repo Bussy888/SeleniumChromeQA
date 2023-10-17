@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445c264f-7989-422c-acd6-50b8505a95de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controls/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controls/Control.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controls/Option.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controls/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/WebUI1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/WebUI2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/WebUI3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/FactoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/IRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/RequestDELETE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/RequestGET.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/RequestInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/RequestPOST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/factoryRequest/RequestPUT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/testSuites/CRUDTokenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ejercicioParcial2/api4/testSuites/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/FactoryBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Firefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/IBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MenuSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSuite/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/todoistPages/AccountSettingsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/todoistPages/EjercicioTodoist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/todoistPages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/todoistPages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/todoistPages/WorkspacePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +54,7 @@
       <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\SeleniumChrome\src\test\resources\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CRUDTokenTest">
+  <component name="RunManager" selected="Gradle.EjercicioTodoist">
     <configuration name="CRUDTokenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,7 +78,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SeleniumTareaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="EjercicioTodoist" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -116,7 +91,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;basicWeb.SeleniumTareaTest&quot;" />
+            <option value="&quot;todoistPages.EjercicioTodoist&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.EjercicioTodoist" />
         <item itemvalue="Gradle.CRUDTokenTest" />
         <item itemvalue="Gradle.WebUI3" />
         <item itemvalue="Gradle.WebUI2" />
         <item itemvalue="Gradle.WebUI1" />
-        <item itemvalue="Gradle.SeleniumTareaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,11 +196,19 @@
       <option name="project" value="LOCAL" />
       <updated>1697072005869</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ejercicio Parcial 2">
+      <created>1697415899175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697415899175</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tarea Selenium" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tarea Selenium" />
+    <MESSAGE value="Ejercicio Parcial 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Parcial 2" />
   </component>
 </project>
