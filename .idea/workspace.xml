@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="445c264f-7989-422c-acd6-50b8505a95de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/firefox/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/edge/msedgedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Firefox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/session/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/session/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factoryBrowser/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factoryBrowser/Edge.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,12 @@
       <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\SeleniumChrome\src\test\resources\firefox" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\SeleniumChrome\src\test\resources\edge" />
+      <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\SeleniumChrome\src\test\resources\firefox" />
       <recent name="C:\Users\enchu\OneDrive\Escritorio\Programacion\QA\SeleniumChrome\src\test\resources\chrome" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.EjercicioTodoist">
+  <component name="RunManager" selected="Gradle.LoginTest">
     <configuration name="CRUDTokenTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -103,6 +104,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;testSuite.LoginTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="WebUI1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,29 +141,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;ejercicioParcial2.WebUI1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="WebUI2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ejercicioParcial2.WebUI2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest" />
+        <item itemvalue="Gradle.WebUI1" />
         <item itemvalue="Gradle.EjercicioTodoist" />
         <item itemvalue="Gradle.CRUDTokenTest" />
         <item itemvalue="Gradle.WebUI3" />
-        <item itemvalue="Gradle.WebUI2" />
-        <item itemvalue="Gradle.WebUI1" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697585381826</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Firefox implementation">
+      <created>1697678546867</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697678546867</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tarea Selenium" />
     <MESSAGE value="Ejercicio Parcial 2" />
     <MESSAGE value="Ejercicio en clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio en clase" />
+    <MESSAGE value="Firefox implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Firefox implementation" />
   </component>
 </project>
